@@ -8,6 +8,7 @@ namespace Calculator
         {
             double result = DoCalculation(args);
             Console.WriteLine("The answer is {0}", result);
+            Console.WriteLine("Test");
         }
 
         public static double DoCalculation(string[] args)
